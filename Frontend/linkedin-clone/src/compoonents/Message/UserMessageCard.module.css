@@ -1,0 +1,40 @@
+.profileContainer {
+  display: flex;
+  max-width: 400px;
+  width: 100%;
+  padding: 10px;
+  background-color: white;
+  justify-content: space-between;
+}
+.image {
+  width: 80px;
+  height: 80px;
+}
+
+.ProfileInfo {
+  list-style: none;
+  width: 390px;
+  word-break: break-all;
+  margin-left: 10px;
+}
+.ProfileInfo li {
+  font-size: 15px;
+  color: slategray;
+}
+.ProfileInfo li h6 {
+  color: rgb(0, 0, 0);
+  font-size: 20px;
+}
+.MessageBox {
+  align-content: center;
+  margin-left: 10px;
+}
+.MessageBox p {
+  border: solid rgb(4, 77, 172) 2px;
+  border-radius: 30px;
+  padding: 3px 10px;
+  color: rgb(4, 77, 172);
+  width: auto;
+  font-size: 20px;
+  align-content: center;
+}

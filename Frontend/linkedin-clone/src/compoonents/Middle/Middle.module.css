@@ -1,0 +1,51 @@
+.feedCard {
+  /* margin-right: 360px; */
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 300px;
+}
+.imageContainer {
+  align-content: center;
+  margin: 10px;
+}
+.postlogo {
+  width: 20px;
+  height: 20px;
+  background-color: rgb(22, 115, 236);
+  margin: 10px;
+}
+
+.logo {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+.postContainer {
+  padding: 20px;
+  background-color: #fff;
+  /* margin-right: 360px; */
+}
+.imgSearch {
+  display: flex;
+}
+.searchBox {
+  width: 450px;
+  height: 70px;
+  border-radius: 30px;
+
+  border-width: 1px;
+  text-align: start;
+}
+.types {
+  display: flex;
+  text-decoration: none;
+  list-style: none;
+  justify-content: space-evenly;
+  align-content: baseline;
+  padding-top: 20px;
+}
+.searchBar input {
+  word-wrap: break-word;
+}

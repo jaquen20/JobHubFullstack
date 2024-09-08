@@ -1,0 +1,138 @@
+.ProfileContainer {
+  width: 500px;
+  /* border: 5px solid black; */
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: auto;
+}
+
+.profileImage {
+  position: absolute;
+
+  border: 5px solid #f1eeee;
+  top: 70%;
+  left: 5%;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  overflow: visible;
+}
+.details {
+  margin: 15px;
+}
+.details h5 {
+  display: flex;
+  justify-content: space-between;
+}
+.editIcon {
+  border-radius: 0;
+  height: 30px;
+  width: 30px;
+}
+.jobDescription {
+  padding: 10px;
+  background-color: slategray;
+  border-radius: 3px;
+}
+.banner {
+  max-width: 100%;
+  width: 500px;
+  height: 150px;
+  border-radius: 0;
+}
+
+.image {
+  display: flex;
+  justify-content: space-between;
+}
+
+.smallText {
+  font-size: small;
+  color: grey;
+}
+.connections {
+  color: rgb(4, 39, 240);
+  text-decoration: none;
+  font-size: small;
+}
+.parent {
+  position: relative;
+  margin-bottom: 60px;
+  background-color: aqua;
+}
+.message {
+  padding: 5px 20px;
+  background-color: rgb(4, 78, 190);
+  color: white;
+  border-radius: 20px;
+  width: auto;
+  margin: auto;
+
+  display: flex;
+  align-items: center;
+
+  font-size: medium;
+}
+.messageImage {
+  width: 30px;
+  height: 30px;
+  margin-right: 6px;
+  color: white;
+  align-items: center;
+  text-align: center;
+}
+.circle {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 5px solid #080808;
+  border-width: 2px;
+  text-align: center;
+  text-decoration: none;
+  margin-left: 20px;
+  justify-content: end;
+  font-weight: 100;
+}
+.circle a {
+  text-decoration: none;
+  font-weight: 500;
+  justify-content: center;
+  color: black;
+}
+.messageContainer {
+  display: flex;
+  margin: 10px;
+  max-width: 100%;
+  width: auto;
+}
+.links {
+  text-decoration: none;
+  margin: auto;
+}
+.logo {
+  width: 30px;
+  height: 30px;
+  margin: 10px;
+}
+.EducationContainer {
+  width: 500px;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+.EducationTop {
+  display: flex;
+  padding: 10px;
+  justify-content: space-between;
+}
+.Edit {
+  justify-content: space-evenly;
+}
+.CertificateContainer {
+  width: 500px;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+.CertificateTop {
+  display: flex;
+  padding: 10px;
+  justify-content: space-between;
+}

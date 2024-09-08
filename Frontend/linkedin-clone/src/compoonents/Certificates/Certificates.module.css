@@ -1,0 +1,41 @@
+.logo {
+  height: 40px;
+  width: 40px;
+}
+.image {
+  height: 80px;
+  width: 80px;
+}
+.CertificateContainer {
+  display: flex;
+  /* height: 100px; */
+}
+.CertificateInfo {
+  height: fit-content;
+  list-style: none;
+  /* justify-content: center; */
+  margin: 0 10px;
+}
+.CertificateLicence {
+  display: flex;
+  margin: 10px 10px 0 0;
+}
+.CredentialLink {
+  border-radius: 30px;
+  border: solid black 2px;
+  width: max-content;
+
+  text-align: center;
+  height: 50px;
+}
+.CredentialLink a {
+  text-decoration: none;
+  text-align: center;
+  color: black;
+  padding: 2px;
+}
+.logo {
+  width: 30px;
+  height: 30px;
+  margin: 10px;
+}

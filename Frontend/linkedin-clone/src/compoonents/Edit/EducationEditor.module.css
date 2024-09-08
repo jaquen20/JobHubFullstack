@@ -1,0 +1,72 @@
+.questionItems {
+  min-width: 100px;
+  width: fit-content;
+  background-color: #5562eb;
+  color: white;
+  border-radius: 20px;
+  padding: 10px;
+  display: flex;
+  margin: 5px;
+}
+.questionItems img {
+  align-items: center;
+  background-color: #ccc;
+}
+.delImage {
+  width: 20px;
+  height: 20px;
+  margin-left: 10px;
+
+  background-color: #3c454c;
+}
+.questionList {
+  /* border: 1px solid #ccc; */
+  padding: 10px;
+  width: 100%;
+  display: flex;
+  /* background-color: aqua; */
+  min-height: 50px;
+  flex-wrap: wrap;
+}
+.selectDiv {
+  /* position: relative; */
+  float: left;
+  /* min-height: 200px; */
+  /* margin: 50px 33%; */
+}
+.selectDiv select::-ms-expand {
+  display: none;
+}
+.selectDiv::after {
+  content: "";
+  font: 17px "Consolas", monospace;
+  color: #333;
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  transform: rotate(90deg);
+  right: 11px;
+  top: 18px;
+  padding: 0 0 2px;
+  border-bottom: 1px solid #999;
+  position: absolute;
+  pointer-events: none;
+}
+.selectDiv select {
+  appearance: none;
+  /* display: block; */
+  width: 100%;
+  max-width: 320px;
+  height: 50px;
+  float: right;
+  margin: 5px 0;
+  padding: 0 24px;
+  font-size: 16px;
+  line-height: 1.75;
+  color: #333;
+  background-color: #fff;
+  background-image: none;
+  border: 1px solid #ccc;
+  -ms-word-break: normal;
+  word-break: normal;
+}

@@ -1,0 +1,29 @@
+[
+  {
+    "name": "sandeep",
+    "profile": "projects/Garbage.png",
+    "post": "The project involved development of a mobile application that allows user to report the trash by clicking photo and send it to required authority with location.",
+    "comments": " this is best",
+    "likes": " 5",
+    "desc": "java developer",
+    "time": "12:00"
+  },
+  {
+    "name": "Rohit sharma",
+    "profile": "projects/Garbage.png",
+    "post": "This is vadapaw legend rohit sharma.",
+    "comments": " this is best",
+    "likes": " 394",
+    "desc": "vada paw",
+    "time": "10:03"
+  },
+  {
+    "name": "Virat kohli",
+    "profile": "projects/Garbage.png",
+    "post": " hii this is virat kohli hope you guys are doing best",
+    "comments": " first comments on virat kohli felling nice.",
+    "likes": " 10384",
+    "desc": "Cricketer, businessman",
+    "time": "4:59"
+  }
+]

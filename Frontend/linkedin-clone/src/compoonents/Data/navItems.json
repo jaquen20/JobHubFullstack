@@ -1,0 +1,32 @@
+[
+  {
+    "title": "Home",
+    "imageUrl": "src/assets/icons/home.png",
+    "link": "/home",
+    "name": "Home"
+  },
+  {
+    "title": "My Network",
+    "imageUrl": "src/assets/icons/connections.png",
+    "link": "/connection",
+    "name": "network"
+  },
+  {
+    "title": "Jobs",
+    "imageUrl": "src/assets/icons/briefcase.png",
+    "link": "/jobs",
+    "name": "jobs"
+  },
+  {
+    "title": "Messaging",
+    "imageUrl": "src/assets/icons/chat.png",
+    "link": "/message",
+    "name": "message"
+  },
+  {
+    "title": "Notifications",
+    "imageUrl": "src/assets/icons/bell.png",
+    "link": "/notifications",
+    "name": "notify"
+  }
+]

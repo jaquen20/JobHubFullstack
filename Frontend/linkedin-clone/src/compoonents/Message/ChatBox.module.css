@@ -1,0 +1,47 @@
+.Body {
+  /* align-items: baseline; */
+  padding: 10px;
+  background-color: rgb(201, 131, 39);
+}
+.Chats {
+  height: 500px;
+  width: 100%;
+}
+.Chats {
+  background-color: aquamarine;
+}
+.UserInfo {
+  display: flex;
+  height: 60px;
+  padding: 10px;
+  align-items: center;
+  background-color: yellow;
+  position: sticky;
+  top: 0;
+}
+.UserInfo img {
+  margin: 10px;
+}
+.Image {
+  height: 50px;
+  width: 50px;
+}
+.message {
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 5px;
+  max-width: 70%;
+  word-wrap: break-word;
+  display: flex;
+  align-items: center;
+}
+.SenderMsg {
+  background-color: #e0e0e0;
+  color: #000;
+  align-self: flex-start;
+}
+.ReceiverMsg {
+  background-color: #4caf50;
+  align-self: flex-end;
+  color: #fff;
+}

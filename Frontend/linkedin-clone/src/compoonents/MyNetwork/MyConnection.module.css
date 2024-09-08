@@ -1,0 +1,14 @@
+.Container {
+  background-color: white;
+  width: fit-content;
+  padding: 10px;
+}
+.TopContainer {
+  font-size: 20px;
+}
+
+.SearchContainer {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px;
+}

@@ -1,0 +1,15 @@
+.Body {
+  margin: auto;
+  width: 50%;
+  height: 100vh;
+  background-color: white;
+}
+.TitleContainer {
+  padding: 20px;
+  background-color: azure;
+  font-weight: 500;
+}
+.cardContainer {
+  background-color: gainsboro;
+  margin: 10px auto;
+}

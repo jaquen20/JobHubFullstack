@@ -1,0 +1,33 @@
+.Container {
+  background-color: white;
+  width: 500px;
+}
+.Industry {
+  display: flex;
+}
+.Company {
+  display: flex;
+  font-size: 20px;
+  justify-content: space-between;
+  color: slategrey;
+}
+.CompanyLogo {
+  width: 90px;
+  height: 90px;
+}
+.Date {
+  display: flex;
+  justify-content: space-between;
+  font-size: 20px;
+  color: slategrey;
+}
+.Role {
+  font-size: 25px;
+  font-weight: 500;
+}
+.skillsLearned {
+  color: slategray;
+}
+.JobType {
+  color: slategray;
+}

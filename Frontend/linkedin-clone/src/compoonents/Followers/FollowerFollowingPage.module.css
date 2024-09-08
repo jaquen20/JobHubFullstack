@@ -1,0 +1,17 @@
+.Container {
+  background-color: white;
+  width: fit-content;
+  padding: 20px;
+}
+
+.titleName {
+  display: block;
+
+  align-items: baseline;
+  align-content: baseline;
+  justify-content: baseline;
+}
+.actionBar {
+  display: flex;
+  justify-content: space-around;
+}

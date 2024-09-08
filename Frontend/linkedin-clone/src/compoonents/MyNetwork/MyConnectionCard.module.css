@@ -1,0 +1,46 @@
+.profileContainer {
+  display: flex;
+  width: 700px;
+  padding: 10px;
+  background-color: white;
+  justify-content: space-between;
+}
+.image {
+  width: 80px;
+  height: 80px;
+}
+
+.ProfileInfo {
+  list-style: none;
+  width: 390px;
+  word-break: break-all;
+  margin-left: 10px;
+}
+.ProfileInfo li {
+  font-size: 15px;
+  color: slategray;
+}
+.ProfileInfo li h6 {
+  color: rgb(0, 0, 0);
+}
+.MessageBox {
+  align-content: center;
+  margin-left: 10px;
+}
+.MessageBox p {
+  border: solid rgb(4, 77, 172) 2px;
+  border-radius: 30px;
+  padding: 3px 20px;
+  color: rgb(4, 77, 172);
+  width: auto;
+  font-size: 20px;
+  align-content: center;
+}
+.dots {
+  align-content: center;
+  margin-left: 10px;
+}
+.dots p {
+  font-size: 40px;
+  font-weight: 800;
+}

@@ -1,0 +1,21 @@
+.leftContainer {
+  height: "110vh";
+  /* justify-content: center; */
+  width: 100%;
+  background-color: whitesmoke;
+}
+.card {
+  /* padding-left: 50px; */
+  /* background-color: blanchedalmond; */
+  width: 100%;
+  text-align: center;
+}
+.card h4 {
+  font-weight: 600;
+  margin: 10px 0;
+}
+.image {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+}

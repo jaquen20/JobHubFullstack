@@ -1,0 +1,19 @@
+.logo {
+  width: 30px;
+  height: 30px;
+  justify-content: center;
+  margin: auto;
+  color: rgb(49, 46, 46);
+}
+.Container {
+  border: 10px;
+}
+.logoContainer {
+  text-align: center;
+}
+.title {
+  justify-content: center;
+}
+.logoContainer:hover {
+  color: aquamarine;
+}

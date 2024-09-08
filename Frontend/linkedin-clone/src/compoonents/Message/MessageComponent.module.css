@@ -1,0 +1,38 @@
+.body {
+  width: 1000px;
+  margin: auto;
+  height: 100%;
+  background-color: aqua;
+  padding: 10px;
+}
+.container {
+  display: flex;
+}
+.chatBox {
+  background-color: aquamarine;
+  flex: 2;
+}
+.userSecton {
+  flex: 1.4;
+  /* padding: 10px; */
+  height: 600px;
+  overflow-x: hidden;
+  scrollbar-width: none;
+}
+
+.card {
+  padding: 10px;
+}
+.SearchSection {
+  height: 50px;
+  /* margin: auto; */
+  background-color: yellow;
+  text-align: center;
+}
+.search {
+  border: 2px solid black;
+  border-radius: 12px;
+  margin: 10px auto;
+  align-items: center;
+  margin: auto;
+}

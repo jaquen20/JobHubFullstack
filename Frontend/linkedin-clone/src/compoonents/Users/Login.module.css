@@ -1,0 +1,75 @@
+.Container {
+  background-color: white;
+  padding: 30px;
+  height: 100vh;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px;
+  color: white;
+  /* background-color: rgba(0, 60, 255, 0.959); */
+}
+.linkedin {
+  justify-content: flex-start;
+  color: rgba(0, 60, 255, 0.959);
+  font-weight: 900;
+  font-size: 40px;
+  font-family: "Times New Roman", Times, serif;
+}
+.Sign {
+  display: flex;
+  color: white;
+}
+.join {
+  margin: 10px;
+  border: solid rgba(0, 60, 255, 0.959) 2px;
+  border-radius: 30px;
+  font-size: 20px;
+  align-content: center;
+  color: white;
+  padding: 2px 20px;
+  font-weight: 400;
+}
+.join a {
+  text-decoration: none;
+}
+.signin {
+  margin: 10px;
+}
+.formSection {
+  /* margin-left: 30px; */
+  justify-content: center;
+  width: 100%;
+  /* align-items: center;
+  float: right; */
+}
+.formSection form {
+  right: 0;
+}
+.image {
+  width: 700px;
+  height: 400px;
+}
+.body {
+  display: flex;
+}
+.RandomText {
+  font-weight: 500;
+  font-size: 40px;
+  color: brown;
+}
+.InputBox {
+  margin: 10px;
+  width: 300px;
+  left: 10px;
+
+  /* text-align: center; */
+}
+
+.btn {
+  display: block;
+  margin: 10px;
+  background-color: blue;
+  width: 300px;
+}

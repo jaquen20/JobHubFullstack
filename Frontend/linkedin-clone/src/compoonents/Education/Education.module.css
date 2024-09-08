@@ -1,0 +1,21 @@
+.logo {
+  height: 40px;
+  width: 40px;
+}
+.image {
+  height: 80px;
+  width: 80px;
+}
+.CollegeContainer {
+  display: flex;
+  /* height: 100px; */
+}
+.CollegeInfo {
+  height: fit-content;
+  list-style: none;
+  padding: auto;
+  margin: auto;
+}
+.CollegeInfo {
+  list-style: none;
+}

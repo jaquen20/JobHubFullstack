@@ -1,0 +1,135 @@
+.blogCard5 {
+  width: 100%;
+  margin: 10px 0;
+  padding: 18px;
+  /* position: relative; */
+  border-radius: 10px;
+  /* overflow: hidden; */
+  background-color: #fff;
+  /* padding-bottom: 5px; */
+  cursor: pointer;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+
+  .singleBlog {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-shrink: 0;
+
+    /* &:not(:nth-last-child(1)) {
+      border-bottom: 1px solid #dfdfdf;
+      margin-bottom: 20px;
+      padding-bottom: 8px;
+    } */
+  }
+
+  .recipeCover {
+    max-height: 120px;
+    overflow: hidden;
+    border-radius: 10px;
+    height: 100px;
+    flex: 0 0 100px;
+
+    img {
+      object-fit: cover;
+      object-position: center center;
+      max-width: 100%;
+      width: 100%;
+      height: 100%;
+    }
+  }
+
+  .blogInfo {
+    /* width: calc(100% - 100px); */
+    /* padding-right: 20px; */
+
+    .blogTag {
+      color: gray;
+      font-weight: 600;
+      font-size: 12px;
+    }
+
+    h6 {
+      color: #000;
+      font-size: 0.81rem;
+      font-weight: normal;
+      margin-top: 0.4rem;
+    }
+  }
+
+  .blogMeta {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    .date {
+      position: relative;
+      padding-left: 7px;
+
+      span {
+        font-size: 12px;
+        color: gray;
+        margin-left: 7px;
+        line-height: 3;
+      }
+
+      &::before {
+        content: "";
+        background-color: lightgray;
+        position: absolute;
+        width: 1px;
+        height: 12px;
+        top: 50%;
+        transform: translateY(-50%);
+      }
+    }
+  }
+
+  .author {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    span {
+      color: #1da1f2;
+      font-size: 14px;
+      font-weight: 600;
+    }
+  }
+
+  .authorPic {
+    width: 25px;
+    height: 25px;
+    border-radius: 50px;
+    overflow: hidden;
+    margin-right: 6px;
+
+    img {
+      object-fit: cover;
+      object-position: center;
+      max-width: 100%;
+      height: 30px;
+      width: 100%;
+    }
+  }
+}
+
+@media all and (max-width: 576px) {
+  .blogCard5 {
+    .recipeCover {
+      height: 75px;
+      flex: 0 0 75px;
+    }
+
+    .blogInfo {
+      width: calc(100% - 75px);
+      padding-right: 10px;
+
+      h6 {
+        font-size: 1rem;
+      }
+    }
+  }
+}
